@@ -1,3 +1,2 @@
 # ml_course
-Course materials
-First Week
+Home Work Submission
