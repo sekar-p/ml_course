@@ -1,4 +1,4 @@
-# Classify the Mushroom where its edible or not
+# Classify the Mushroom whether its edible or not
 
 Dataset downloaded from https://archive.ics.uci.edu/ml/datasets/Mushroom
 
