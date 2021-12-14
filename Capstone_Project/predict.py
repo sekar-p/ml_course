@@ -20,6 +20,8 @@ def predict():
     if predicted_price > 1123:
         model_type = 'High End'
 
+    predicted_price = f"{round(y_pred, 2)} €"
+
     result = {"Your Laptop is": model_type, "Predict Price": predicted_price}
 
     return jsonify(result)
