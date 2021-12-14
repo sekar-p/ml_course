@@ -2,7 +2,9 @@
 
 Dataset can be downloaded from https://www.kaggle.com/muhammetvarl/laptop-price
 
-I was searching for the Capstone project idea and endup with this dataset which is something interesting to me to check my laptop price with my own ML model :-)
+I was searching the dataset for the capstone project and endup with this dataset which is something interesting to me to check my laptop price with my own ML model :-)
+
+Predict the price of the laptop based on the few attributes related the laptop such as Processor, Clock speed, Screen Resolution, Panel Type, Graphics, RAM and ROM. Its funny project to get to know the price of your laptop.
 
 Column information as below,
 - Company- String -Laptop Manufacturer
@@ -20,7 +22,7 @@ Column information as below,
 
 
 # How to run the project:
-  - Download all the files(Pipfile,Pipfile.lock,Dockerfile,data.csv and *.py files) to your local host and run follow below commands from the location where all the files resides
+  - Download all the files(Pipfile,Pipfile.lock,Dockerfile,data.csv and *.py files) to your local host and run below commands from the location where all the files resides
 
 ## 1. Install the virtualenv and activate it
 
@@ -32,6 +34,8 @@ Column information as below,
   Or, if you\'re using Windows:
 
       # pip install --user pipenv
+  
+  Refer:- https://pipenv-fork.readthedocs.io/en/latest/install.html
 
   #### 1.b - Activate the virtual env
   To activate the virtual env use the below command, so that all the packages will be installed in isolated environment.
