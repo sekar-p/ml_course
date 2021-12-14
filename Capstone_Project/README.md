@@ -2,7 +2,7 @@
 
 Dataset can be downloaded from https://www.kaggle.com/muhammetvarl/laptop-price
 
-I was searching for the Capstone project idea and endup with this dataset which is something interesting to me check my laptop price with my own ML model
+I was searching for the Capstone project idea and endup with this dataset which is something interesting to me to check my laptop price with my own ML model :-)
 
 Attribute information as below,
 - Company- String -Laptop Manufacturer
@@ -26,16 +26,9 @@ Attribute information as below,
 
   1.a - Installation
   ------------
-  If you\'re using Debian Buster+:
+  If you\'re using Debian:
+      
       $ sudo apt install pipenv
-
-  Or, if you\'re using Fedora:
-
-      $ sudo dnf install pipenv
-
-  Or, if you\'re using FreeBSD:
-
-      # pkg install py36-pipenv
 
   Or, if you\'re using Windows:
 
@@ -77,7 +70,7 @@ Hurray!! Now we have activated virtualenv and installed all the dependencies req
   ------------------------------
   - Run the flask script as webservice using gunicorn
 
-  `$ gunicorn --bind 0.0.0.0:1552 predict:predict`
+  `$ gunicorn --bind 0.0.0.0:1552 predict:app`
   
 ## 3. Run as Docker web service
   Make sure all the files in your directory where you are running the command, otherwise it wil thrown an error
